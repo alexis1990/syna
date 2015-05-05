@@ -1,0 +1,2 @@
+# syna
+synagogue
