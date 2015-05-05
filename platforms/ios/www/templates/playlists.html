@@ -1,7 +1,12 @@
 <ion-view view-title="Playlists">
-  <ion-content>
-	<ion-content ng-controller="MapController">
-	    <div id="map" data-tap-disabled="true"></div>
-	</ion-content>
-  </ion-content>
+
+<ion-content>
+<div ng-controller="MapCtrl">
+	<div id="map"></div>
+	<div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+		<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+	</div>
+</div>
+</ion-content>
+
 </ion-view>

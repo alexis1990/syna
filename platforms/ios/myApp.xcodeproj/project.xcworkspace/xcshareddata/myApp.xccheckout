@@ -10,6 +10,8 @@
 	<string>myApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>986609213406181185DA357C4EA23E98701AC426</key>
+		<string>https://github.com/alexis1990/syna.git</string>
 		<key>B27631289ADBE565629F0130425DE36D9D542C8B</key>
 		<string>https://github.com/alexis1990/syna.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>platforms/ios/myApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B27631289ADBE565629F0130425DE36D9D542C8B</key>
+		<key>986609213406181185DA357C4EA23E98701AC426</key>
 		<string>../../../..</string>
+		<key>B27631289ADBE565629F0130425DE36D9D542C8B</key>
+		<string>../../../../../myApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/alexis1990/syna.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B27631289ADBE565629F0130425DE36D9D542C8B</string>
+	<string>986609213406181185DA357C4EA23E98701AC426</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>B27631289ADBE565629F0130425DE36D9D542C8B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>myApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>986609213406181185DA357C4EA23E98701AC426</string>
+			<key>IDESourceControlWCCName</key>
+			<string>syna</string>
 		</dict>
 	</array>
 </dict>

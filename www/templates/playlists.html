@@ -1,10 +1,12 @@
 <ion-view view-title="Playlists">
-  <ion-content>
-	<div ng-controller="MapCtrl">
-	    <div id="map"></div>
-	    <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
-	         <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
-	    </div>
+
+<ion-content>
+<div ng-controller="MapCtrl">
+	<div id="map"></div>
+	<div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+		<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
 	</div>
-  </ion-content>
+</div>
+</ion-content>
+
 </ion-view>
